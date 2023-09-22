@@ -1,0 +1,102 @@
+/*authentication pages*/
+.authentication{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 100, 117);
+}
+.authentication-form{
+    width: 400px;
+}
+
+.authentication .card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: brown;
+    color: white;
+    max-width: max-content !important;
+    padding: 7px 15px;
+    margin-left: -40px;
+    border-bottom-left-radius: 10px;
+}
+
+/*common styling*/
+.spinner-parent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+ 
+    background-color: rgba(0, 0, 0, 0.322);
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+}
+
+.spinner-border{
+    width:5rem;
+    height: 5rem;
+    color: white !important;
+}
+.card{
+    box-shadow: 0 0 2px grey;
+    border-radius: 0 !important;
+}
+.anchor{
+    color: rgb(19, 18, 18) !important;
+    text-decoration: underline;
+    font-size: 16px;
+}
+.anchor:hover{
+    text-decoration: underline !important;
+}
+
+.primary-button{
+    height: 40px !important;
+    width: 100% !important;
+    font-size: 16px !important;
+    background-color: rgb(61, 61, 92);
+    color: white;
+}
+.primary-button:hover{
+    color: rgb(49, 45, 45);
+    background-color: rgb(187, 214, 223);
+}
+
+.card-title{
+    font-size:1.5rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.normal-text{
+    font-size: 1rem;
+}
+
+
+
+/* antd override*/
+input{
+    border-radius: 2px !important;
+    border: 1px solid rgb(107, 106, 106) !important;
+    height: 40px !important;
+}
+input:focus{
+    outline:none !important;
+    box-shadow: none;
+    border: 1px solid rgb(211, 205, 205) !important;
+}
+
+label{
+    font-size: 18px !important;
+    color: black !important;
+}
+
+.ant-form-item{
+    margin: 8px 0 !important;
+}
